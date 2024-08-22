@@ -1,0 +1,38 @@
+.Pay-Number{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin-top:200px;
+    background-color:rgb(103, 101, 101);
+    color:rgb(2, 2, 2);
+    width:1000px;
+    margin-left:250px;
+}
+
+.Pay-1{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+
+.btn-6{
+    width:280px;
+    border:3px solid black;
+    font-size:20px;
+    text-align:center;
+    background-color:rgb(48, 48, 48);
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+    margin-top:15px;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    transition:1s;
+    margin-left:110px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+#btn-2{
+    width:160px;
+}

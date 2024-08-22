@@ -1,0 +1,198 @@
+.body-login{
+    background-image:url(Aesthetic-Music-PPT-Background-Google-Slides-Wallpaper-by-SlidesCorner.com_.jpg);
+}
+
+.page-container{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    margin-top:100px;
+}
+
+.page-container > .content-wrapper{
+    width:1000px;
+}
+
+.page-container > .content-wrapper > .page{
+    width:350px;
+    margin:23px 40px 20px 0px;
+    float:left;
+    border:5px solid gold;
+}
+
+.page-container > .content-wrapper > p{
+    letter-spacing:1px;
+    line-height:30px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+}
+
+.squares-wrapper{
+    display:flex;
+    justify-content:center;
+}
+
+.squares-wrapper > .squares{
+    width:1000px;
+}
+
+.squares-wrapper > .squares > .square{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin-top:-4px
+}
+
+.square > .img-wrapper img{
+    width:500px;
+    height:500px;
+    object-fit:cover;
+    border:5px solid gold;
+    border-radius:3px;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper > p{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    letter-spacing:1px;
+    line-height:30px;    
+}
+
+.square > .square-text-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:42px;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper > h1{
+    color:red;
+}
+
+.form{
+    align-items:center;
+    justify-content:center;
+    /* margin-left:500px; */
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.centered-btn-wrapper{
+    margin-top:30px;
+    margin-bottom:30px;
+    display:flex;
+    justify-content:center;
+}
+
+.label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:0.7rem;
+    margin-left:2rem;
+    transition:all 0.3s;
+    color:orange;
+    visibility:hidden;
+    opacity:0;
+}
+
+.form input{
+    font-size:1.3rem;
+    font-family:inherit;
+    color:inherit;
+    padding:1.5rem 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    border:3px solid black;
+    width:100%;
+    /* display:block; */
+    transition:all 0.3s;
+}
+
+.btn{
+    background-color:rgb(0, 3, 157);
+    color:white;
+    font-size:30px;
+    padding:10px 25px;
+    border:3px solid black;
+    border-radius:4px;
+    outline:none;
+    transition:0.3s;
+    margin-left:30px;
+    border:5px solid blue;
+    width:200px;
+}
+
+.form input:focus{
+    border:8px solid rgb(64, 64, 64);
+    box-shadow:0 1rem 1rem rgb(167, 165, 165);
+}
+
+/* .form input:focus + label{
+    opacity:1;
+    visibility:visible;
+} */
+
+.btn:active{
+    box-shadow:5px 5px 30px black;
+}
+
+.company-metadata-slidebar-wrapper > h1{
+    justify-content:center;
+    text-align:center;
+    display:flex;
+    border:5px solid rgb(33, 32, 34);
+    width:200px;
+    background-color:rgb(55, 55, 55);
+    margin-bottom:60px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow:0 0.5rem 0.5rem rgb(70, 70, 70);
+    margin-left:160px;
+}
+
+.messageDiv{
+    background-color:rgb(245, 0, 102);
+    color:white;
+    padding:10px 20px;
+    margin:10px;
+    border-radius:5px;
+    font-size:1rem;
+    opacity:0;
+    animation:fadeout 7s forwards;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+}
+
+.navbar-login{
+    background-color:rgb(50, 50, 50);
+    height:200px;
+    display:flex;
+    align-items:center;
+}
+
+.Account-p{
+    font-size:20px;
+    background-color:rgb(75, 75, 75);
+    width:210px;
+    color:white;
+    border:3px solid black;
+    border-radius:10px;
+}
+
+.Account-a{
+    color:rgb(5, 205, 255);
+}

@@ -1,0 +1,69 @@
+.plans{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.plan1{
+    display:grid;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(134, 133, 133);
+    border-radius:20px;
+    border:3px solid rgb(158, 155, 155);
+    /* text-align:center; */
+    width:230px;
+    box-shadow: 0.001rem 0.30rem 0.7rem 0.7rem rgb(59, 59, 59);
+    margin-top:100px;
+    margin-bottom:150px;
+    height:550px;
+}
+
+.text-h1{
+    text-align:center;
+}
+
+.plan2{
+    display:grid;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(134, 133, 133);
+    border-radius:20px;
+    border:3px solid rgb(158, 155, 155);
+    /* text-align:center; */
+    width:230px;
+    box-shadow: 0.001rem 0.30rem 0.7rem 0.7rem rgb(59, 59, 59);
+    margin-top:100px;
+    margin-bottom:150px;
+    height:550px;
+}
+
+.btn-Buy-Beat{
+    width:100px;
+    margin-left:60px;
+    background-color:rgb(67, 67, 67);
+    font-size:20px;
+    border:2px solid black;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(223, 223, 223);
+    align-items:center;
+    transition:0.5s;
+}
+
+.btn-Buy-Beat:hover{
+    background-color:white;
+    color:black;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.pay-link{
+    text-decoration:none;
+    color:white;
+}
+
+.pay-link:hover{
+    color:black;
+    
+}

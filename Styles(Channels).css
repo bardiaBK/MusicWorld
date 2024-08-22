@@ -1,0 +1,119 @@
+.channels{
+    display:flex;
+    justify-content:space-around;
+    padding:100px;
+}
+
+.icon{
+    width:90px;
+    border-radius:15px;
+}
+
+.instagram-cha{
+    border-radius:10px;
+    border:5px solid rgb(238, 45, 255);
+    background-color:rgb(191, 65, 250);
+    text-align:center;
+    width:250px;
+    height:320px;
+}
+
+.text-channel{
+    border:0px solid white;
+    border-radius:10px;
+    color:rgb(52, 52, 52);
+}
+
+.Fallow-link{
+    background-color:blueviolet;
+    color:white;
+    border:3px solid rgb(178, 96, 255);
+    font-size:25px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.5s;
+}
+
+.Fallow-link:hover{
+    background-color:white;
+    color:blueviolet;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.youtube-cha{
+    border-radius:10px;
+    border:5px solid rgb(255, 104, 104);
+    background-color:rgb(255, 14, 14);
+    text-align:center;
+    width:250px;
+    height:320px;
+}
+
+.Subscribe-link{
+    background-color:rgb(206, 32, 2);
+    color:white;
+    border:3px solid rgb(254, 103, 103);
+    font-size:25px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.5s;
+    margin-top:100px;
+}
+
+.Subscribe-link:hover{
+    background-color:white;
+    color:rgb(206, 32, 2);
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.Spotify-cha{
+    border-radius:10px;
+    border:5px solid rgb(120, 252, 110);
+    background-color:rgb(0, 185, 15);
+    text-align:center;
+    width:250px;
+    height:320px;
+}
+
+.Fallow-link-Spotify{
+    background-color:rgb(2, 206, 90);
+    color:white;
+    border:3px solid rgb(32, 163, 25);
+    font-size:25px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.5s;
+    margin-top:100px;
+}
+
+.Fallow-link-Spotify:hover{
+    background-color:white;
+    color:rgb(2, 206, 90);
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.Soundcloud-cha{
+    border-radius:10px;
+    border:5px solid rgb(255, 163, 66);
+    background-color:rgb(230, 108, 1);
+    text-align:center;
+    width:250px;
+    height:320px;
+}
+
+.Fallow-link-Soundcloud{
+    background-color:rgb(251, 155, 1);
+    color:white;
+    border:3px solid rgb(236, 131, 2);
+    font-size:25px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.5s;
+    margin-top:100px;
+}
+
+.Fallow-link-Soundcloud:hover{
+    background-color:white;
+    color:rgb(251, 155, 1);
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}

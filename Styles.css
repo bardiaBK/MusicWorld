@@ -1,0 +1,356 @@
+body{
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x:hidden;
+    margin:0;
+    padding:0;
+}
+
+.body-index{
+    background-color:rgb(32, 32, 85);
+}
+
+.welcome-navbar{
+    display:grid;
+    justify-content:center;
+    margin-top:200px;
+    text-align:center;
+    background-color:rgb(108, 12, 197);
+    padding-bottom:30px;
+    width:100%;
+    /* margin-left:250px; */
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+    border-radius:20px;
+    margin-bottom:195px;
+}
+
+.btn-2{
+    width:150px;
+    border:3px solid black;
+    font-size:20px;
+    text-align:center;
+    background-color:rgb(48, 48, 48);
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+    margin-top:15px;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    transition:1s;
+    margin-left:160px;
+    border-radius:10px;
+}
+
+.btn-link{
+    text-decoration:none;
+    color:white;
+}
+
+.nav-1{
+    color:white;
+    background-color:rgb(38, 38, 38);
+    border:5px solid rgb(30, 29, 29);
+    text-align:center;
+    align-items:center;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+    border-radius:10px;
+    transition:1s;
+}
+
+.nav-1:hover{
+    letter-spacing:0.5px;
+    border-bottom:5px solid rgb(237, 228, 228);
+}
+
+#nav-1{
+    width:500px;
+}
+
+#nav-2{
+    width:350px;
+    margin-left:70px
+}
+
+.btn-2:hover{
+    letter-spacing:1px;
+    transition:1s;
+    background-color:blueviolet;
+}
+
+.btn-1:active{
+    background-color:rgb(24, 20, 25);
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    font-size:11px;
+    /* width:500px; */
+    color:white;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    justify-content:space-around;
+    width:110vw;
+}
+
+.nav-link2{
+    background-color:rgb(51, 50, 50);
+    width:100px;
+    text-align:center;
+    border-radius:10px;
+    border:3px solid black;
+    transition:0.5s;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+#account{
+    width:110px;
+}
+
+.nav-link{
+    text-decoration:none;
+    color:whitesmoke;
+    transition:0.5s;
+}
+
+.nav-link2:hover{
+    color:black;
+    background-color:whitesmoke;
+}
+
+.nav-link:hover{
+    color:black;
+}
+
+.logo-1{
+    width:100px;
+    margin-left:280px;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+    border-radius:10px;
+    border:3px dashed black;
+}
+
+.logo{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin-right:350px;
+}
+
+.phone{
+    justify-content:right;
+    display:flex;
+    font-size:13px;
+    margin-right:180px;
+}
+
+.phonenumber{
+    background-color:rgb(51, 50, 50);
+    width:350px;
+    text-align:center;
+    border-radius:10px;
+    border:3px solid black;
+    transition:0.5s;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.phonenumber:hover{
+    color:black;
+    background-color:white;
+}
+
+.back-video{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+
+.footer{
+    /* margin-top:195px; */
+    background-color:rgb(32, 32, 85);
+    border-top:5px solid white;
+}
+
+.logo-2{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin-top:10px
+}
+
+.logo-3{
+    width:100px;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+    border-radius:10px;
+    border:3px dashed black;
+}
+
+.nav-footer{
+    justify-content:space-evenly;
+    display:flex;
+    align-items:center;
+    font-size:10px;
+    width:50vw;
+    margin-left:360px
+}
+
+.nav-link3{
+    background-color:rgb(51, 50, 50);
+    width:100px;
+    text-align:center;
+    border-radius:10px;
+    border:3px solid black;
+    transition:0.5s;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+    margin-top:30px;
+}
+
+#account-1{
+    width:110px;
+}
+
+.nav-link3:hover{
+    color:black;
+    background-color:whitesmoke;
+}
+
+.nav-link4{
+    text-decoration:none;
+    color:whitesmoke;
+    transition:0.5s;
+}
+
+.nav-link4:hover{
+    color:black;
+}
+
+.copyright{
+    justify-content:center;
+    display:flex;
+    align-items:center;
+}
+
+.copyright-p{
+    width:300px;
+    margin-top:30px;
+    background-color:rgb(59, 59, 60);
+    color:rgb(255, 255, 255);
+    text-align:center;
+    border-radius:10px;
+    border:3px solid rgb(26, 25, 26);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.platforms{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    padding:20px
+}
+
+.instagram{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.instagram-link{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    text-decoration:none;
+    color:rgb(203, 14, 203);
+    transition:0.5s;
+}
+
+.instagram-link:hover{
+    transition:0.5s;
+    letter-spacing:1px;
+    color:rgb(225, 7, 145);
+}
+
+.youtube{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.youtube-link{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    text-decoration:none;
+    color:red;
+    transition:0.5s;
+}
+
+.youtube-link:hover{
+    transition:0.5s;
+    letter-spacing:1px;
+    color:rgb(239, 47, 92);
+}
+
+.spotify{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.spotify-link{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    text-decoration:none;
+    color:rgb(14, 215, 14);
+    transition:0.5s;
+}
+
+.spotify-link:hover{
+    transition:0.5s;
+    letter-spacing:1px;
+    color:rgb(69, 255, 100);
+}
+
+.soundcloud{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.soundcloud-link{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    text-decoration:none;
+    color:rgb(219, 157, 13);
+    transition:0.5s; 
+}
+
+.soundcloud-link:hover{
+    transition:0.5s;
+    letter-spacing:1px;
+    color:orange;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width:auto;
+        height:100%;
+    }
+}
+

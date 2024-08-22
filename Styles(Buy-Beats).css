@@ -1,0 +1,450 @@
+.body-Buy-Beat{
+    background-color:rgb(255, 255, 255);
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.play-buybeats{
+    justify-content:space-around;
+    text-align:center;
+    display:flex;
+    /* margin-bottom:150px; */
+    font-size:2rem;
+    flex-wrap:wrap;
+}
+
+.play-buybeats-p{
+    /* border:2px solid black; */
+    background-color:rgb(122, 116, 116);
+    color:white;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    border-radius:10px;
+    width:275px;
+    height:100px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    box-shadow:0 1rem 1rem rgb(167, 165, 165);
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+}
+
+.photo{
+    justify-content:space-around;
+    align-items:center;
+    display:flex;
+}
+
+.photo-1{
+    width:250px;
+    border:3px solid rgb(194, 191, 191);
+    box-shadow:0 1rem 1rem rgb(167, 165, 165);
+}
+
+.play-buybeats-p:hover{
+    letter-spacing:1px;
+    background-color:blueviolet;
+    text-decoration:none;
+}
+
+.link-Beat{
+    text-decoration:none;
+}
+
+.Buy-p{
+    background-color:rgb(4, 26, 192);
+    color:white;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    border-radius:10px;
+    width:300px;
+    height:50px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+    /* box-shadow:0 20px 20px rgb(167, 165, 165); */
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    font-size:25px;
+}
+
+/* Page-1 */
+
+.logo-page-1{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.logo-page-1 img{
+    width:400px;
+    border:5px solid gray;
+    border-radius:20px;
+    box-shadow:0 50px 80px rgb(167, 165, 165);
+}
+
+.text-1{
+    justify-content:center;
+    text-align:center;
+    display:grid;
+}
+
+.text-1-h{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    width:200px;
+    background-color:rgb(4, 26, 192);
+    color:white;
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    border-radius:5px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    margin-top:50px;
+    margin-left:47px;
+}
+
+.text-1-h1{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-color:blue;
+    background-color:rgb(4, 26, 192);
+    color:white;
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    border-radius:5px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+}
+
+.text-1-h2{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-color:blue;
+    background-color:rgb(4, 26, 192);
+    color:white;
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    border-radius:5px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    width:300px
+
+}    
+
+.Buy{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.audio{
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    size:2rem;
+}
+
+.download{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-color:rgb(67, 67, 67);
+    background-color:rgb(37, 37, 185);
+    color:white;
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    border-radius:5px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    width:110px;
+    text-decoration:none;
+    height:35px;
+    font-size:18px;
+    margin-left:30px;
+    border-radius:20px;
+    margin-top:10px;
+}
+
+
+#myinput{
+    background-color:rgb(215, 207, 207);
+    border-radius:10px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    width:30%;
+    border:2px solid rgb(97, 96, 96);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+::placeholder{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.search-bar button{
+    border:0;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    background-color:cornflowerblue;
+    cursor:pointer;
+}
+
+.search-bar button img{
+    width:25px;
+    /* flex-wrap:wrap; */
+}
+
+.search-select-box{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right:20px;
+}
+
+.search-select-box select{
+    width:100%;
+    margin-right:50px;
+}
+
+.container-1{
+    width:900px;
+    max-width:90vh;
+    margin:auto;
+    text-align:center;
+    padding-top:10px;
+    transition: transform .5s;
+}
+
+svg{
+    width:30px;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 0px;
+}
+
+header .icon-cart{
+    position:relative;
+}
+
+header .icon-cart span{
+    display:flex;
+    width:30px;
+    height:30px;
+    background-color:green;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    right:-20px;
+}
+
+.listproduct .item img{
+    width:90%;
+    filter:drop-shadow(0 5px 10px black);
+}
+
+.listproduct{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+}
+
+.listproduct .item{
+    background-color:rgb(215, 214, 214);
+    padding:20px;
+    border-radius:20px;
+}
+
+.listproduct .item h2{
+    font-weight:500;
+    font-size:large;
+}
+
+.listproduct .item .price{
+    letter-spacing:2px;
+}
+
+.listproduct .item button{
+    background-color:rgb(81, 81, 81);
+    color:white;
+    padding:5px 10px;
+    border-radius:20px;
+    margin-top:10px;
+    border:none;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.cartTab{
+    width:400px;
+    background-color:rgb(74, 74, 74);
+    color:white;
+    position:fixed;
+    inset:0 -400px 0 auto;
+    display:grid;
+    grid-template-rows:70px 1fr 70px;
+    transition:.5s;
+}
+
+body.showcart .cartTab{
+    inset:0 0 0 auto;
+}
+
+body.showcart .container-1{
+    transform:translateX(-250px);
+}
+
+.cartTab h1{
+    padding:20px;
+    margin:0;
+    font-weight:300;
+}
+
+.cartTab .btn-1{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.cartTab .btn-1 button{
+    background-color:rgb(212, 212, 10);
+    border:none;
+    cursor:pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cartTab .btn-1 .close{
+    background-color:rgb(199, 197, 197);
+}
+
+.cartTab .listCart .item img{
+    width:100%;
+}
+
+.cartTab .listCart .item{
+    display:grid;
+    grid-template-columns:70px 150px 50px 1fr;
+    gap:10px;
+    text-align:center;
+    align-items:center;
+}
+
+.listCart{
+    overflow:auto;
+}
+
+.listCart::-webkit-scrollbar{
+    width:0;
+}
+
+#para{
+    color:black;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+}
+
+.listCart .quantity span{
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background-color:whitesmoke;
+    color:#555;
+    border-radius:50%;
+    cursor:pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+.listCart .quantity span:nth-child(2){
+    background-color:transparent;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+.btn-1 .checkOut{
+    display:grid;
+    grid-template-columns:repeat(1fr);
+    text-decoration:none;
+    text-align:center;
+}
+
+.checkout-1{
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-size:3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:red;
+    background-color:black;
+    border:4px dashed red;
+    border-radius:15px;
+}
+
+.audio{
+    width:150px;
+    margin-left:15px;
+}
+
+.addCart{
+    font-size:20px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title{
+    font-size:25px;
+}
+
+.checkOut{
+    font-weight:700px;
+}

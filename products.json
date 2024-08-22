@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Chill",
+        "price": "250.000 تومان",
+        "image": "Chill.jpg",
+        "download": "دانلود",
+        "href": "Chill.mp3",
+        "DOname": "Chill.mp3",
+        "price1" : "25$"
+    },
+    {
+        "id": 2,
+        "name": "HipHop",
+        "price": "250.000 تومان",
+        "image": "HipHop.jpg",
+        "download": "دانلود",
+        "href": "HipHop.mp3",
+        "DOname": "HipHop.mp3",
+        "price1" : "30$"
+    },
+    {
+        "id": 3,
+        "name": "Affro Beat",
+        "price": "250.000 تومان",
+        "image": "Affro-beat.jpg",
+        "download": "دانلود",
+        "href": "Affro-beat.mp3",
+        "DOname": "Affro-beat.mp3",
+        "price1" : "20$"
+    },
+    {
+        "id": 4,
+        "name": "Trap 1",
+        "price": "250.000 تومان",
+        "image": "Trap1.png",
+        "download": "دانلود",
+        "href": "Trap1.mp3",
+        "DOname": "Trap1.mp3",
+        "price1" : "40$"
+    },
+    {
+        "id": 5,
+        "name": "POP",
+        "price": "250.000 تومان",
+        "image": "POP.png",
+        "download": "دانلود",
+        "href": "POP.mp3",
+        "DOname": "POP.mp3",
+        "price1" : "45$"
+    },
+    {
+        "id": 6,
+        "name": "Trap 2",
+        "price": "250.000 تومان",
+        "image": "Trap2.jpg",
+        "download": "دانلود",
+        "href": "Trap2.mp3",
+        "DOname": "Trap2.mp3",
+        "price1" : "40$"
+    }
+]

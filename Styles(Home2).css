@@ -1,0 +1,23 @@
+.plan2{
+    border:5px solid rgb(0, 29, 248);
+    box-shadow: 0.001rem 0.30rem 0.7rem 0.7rem rgba(7, 7, 255, 0.36);
+}
+
+.plan2-h1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:rgb(8, 20, 249);
+    background-color:rgb(255, 255, 255);
+    width:100px;
+    margin-left:60px;
+    border-radius:10px;
+    transition:0.5s;
+}
+
+.plan2-h1:hover{
+    color:white;
+    background-color:rgb(8, 20, 249);
+    transition:0.5s;
+    letter-spacing:1px;
+}
